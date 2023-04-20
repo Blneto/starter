@@ -4,12 +4,95 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,inicial-scale=1.0">
+    <meta name="author" content="Luiz Bignami">
+    <meta name="description" content="Um site de exercicios para Luiz Bignami">
+    <meta name="robots" content="index, follow">
+    
     <title>Starter Phase</title>
+    <link rel="Icon" href="./Imagens/chika48x48.png">
 </head>
 
 <body>
+    <!-- Abaixo temos um exemplo de Table Complexa -->
+    <table>
+
+        <caption>Produzidos X Vendidos por Loja</caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color:#6a9eda;">
+            <col span="2" style="background-color:#e2504c;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Lindopan</th>
+                <th colspan="2" scope="colgroup">Razer Store</th>
+            </tr>
+
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Pães</th>
+                <td>100</td>
+                <td>80</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Computadores</th>
+                <td>0</td>
+                <td>0</td>
+                <td>20</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br>
+
+    <!-- Abaixo temos um exemplo de Table Simples -->
+    <table>
+
+        <caption>Pessoas por idade</caption>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luiz</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Guibson</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td>2 Pessoas</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
     <!-- Abaixo temos um exemplo de Link absoluto (Https) -->
-    <a href="https://precojusto.app.br/" target="_blank"><h1>Site Preço Justo</h1></a>
+    <a href="https://precojusto.app.br/" target="_blank">
+        <h1>Site Preço Justo</h1>
+    </a>
     <br>
 
     <!-- Abaixo temos um exemplo de código para navegar pelos arquivos -->
@@ -124,7 +207,7 @@
     </p>
 
     <!-- Abaixo temos um exemplo de código de imagem -->
-    <img src="guibs.png" alt="Guibs little">
+    <img src="./Imagens/guibs.png" alt="Guibs little">
 </body>
 
 </html>
